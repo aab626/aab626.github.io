@@ -1,0 +1,109 @@
+[
+	{
+		"name": "A SITE: DEFENSE_01",
+		"map": "ascent",
+		"side": "defense",
+		"id":"def_a01",
+		"description": "TODO",
+		"pieces": [
+			{
+				"name": "Camera",
+				"description": "Camera high up so it can check deep into A main to give early info.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cam_ppos.jpg", "width": 20},
+						{"type": "img", "name": "cam_lineup.jpg", "width": 20},
+						{"type": "video", "name": "cam_video.mp4", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Trapwires",
+				"description": "First wire for attackers entering site, second for anyone positioning towards the lever.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "wire1.jpg", "width": 40},
+						{"type": "img", "name": "wire2.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Cages",
+				"description": "First cage is used to peek from left side of dice, second to protect while repositioning. Instead of the oneway lineup you can use a simple cage on the ground just outside of A main entrance.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cage1_ppos.jpg", "width": 20},
+						{"type": "img", "name": "cage1_lineup.jpg", "width": 20},
+						{"type": "video", "name": "cage1_video.mp4", "width": 40}
+					],
+					[
+						{"type": "img", "name": "cage1_alternative.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Playstyle",
+				"description": "Check cameras for attackers in A Main, then peek from left side of dice with A Main oneway, when exposed use second cage reposition and adapt.",
+				"subpieces": [
+					[
+						{"type": "video", "name": "play1.mp4", "width": 40},
+						{"type": "video", "name": "play2.mp4", "width": 40}
+					]
+				]
+			}
+			
+		]
+	},
+	{
+		"name": "A SITE: DEFENSE_02",
+		"map": "ascent",
+		"side": "defense",
+		"id":"def_a02",
+		"description": "TODO",
+		"pieces": [
+			{
+				"name": "Camera",
+				"description": "Lower camera to check into tree, but cannot see inside A Main.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cam.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "A Main",
+				"description": "Standard wire and cage to stop pushes.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "wire1.jpg", "width": 40},
+						{"type": "img", "name": "cage1.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Tree",
+				"description": "Wire and oneway to shoot from site.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cage2_ppos.jpg", "width": 20},
+						{"type": "img", "name": "cage2_lineup.jpg", "width": 20},
+						{"type": "video", "name": "cage2_video.mp4", "width": 40}
+					],
+					[
+						{"type": "img", "name": "wire2.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Playstyle",
+				"description": "Check camera to see if attackers are coming from Tree, activate oneway and shoot behind the cages, beware of A Main, if there attackers there you can use the other cage to protect yourself.",
+				"subpieces": [
+					[
+						{"type": "video", "name": "play1.mp4", "width": 40}
+					]
+				]
+			}
+			
+		]
+	}
+]
