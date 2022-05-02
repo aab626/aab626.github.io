@@ -4,7 +4,7 @@
 		"map": "ascent",
 		"side": "defense",
 		"id":"def_a01",
-		"description": "TODO",
+		"description": "Standard A Site defense for A Main.",
 		"pieces": [
 			{
 				"name": "Camera",
@@ -59,7 +59,7 @@
 		"map": "ascent",
 		"side": "defense",
 		"id":"def_a02",
-		"description": "TODO",
+		"description": "Split A Site defense, A Main and Tree areas.",
 		"pieces": [
 			{
 				"name": "Camera",
@@ -100,6 +100,58 @@
 				"subpieces": [
 					[
 						{"type": "video", "name": "play1.mp4", "width": 40}
+					]
+				]
+			}
+			
+		]
+	},
+	{
+		"name": "A SITE: TREE",
+		"map": "ascent",
+		"side": "defense",
+		"id":"def_a03",
+		"description": "One way from garden to Tree, plus standard A Main defense for teammates..",
+		"pieces": [
+			{
+				"name": "A Site",
+				"description": "Standard wire and cage for A Main.",
+				"subpieces": [
+					[
+						{"type": "reuse", "map": "ascent", "id": "def_a02", "piece": "Camera", "name": "wire1.jpg", "width": 40},
+						{"type": "reuse", "map": "ascent", "id": "def_a02", "piece": "Camera", "name": "wire1.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Garden",
+				"description": "High camera can check the feet of attackers coming from catwalk cubby into tree, very hard to spot.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cam.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Tree",
+				"description": "Wire and oneway to shoot from garden.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cage1_ppos.jpg", "width": 20},
+						{"type": "img", "name": "cage1_lineup.jpg", "width": 20},
+						{"type": "video", "name": "cage1_video.mp4", "width": 40}
+					],
+					[
+						{"type": "img", "name": "wire1.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Playstyle",
+				"description": "Check camera, when spotting legs of enemies activate oneway and shoot, standing in the platform upstairs enemies from catwalk cubby cannot see you.",
+				"subpieces": [
+					[
+						{"type": "video", "name": "play.mp4", "width": 40}
 					]
 				]
 			}

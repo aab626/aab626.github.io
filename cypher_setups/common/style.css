@@ -1,100 +1,101 @@
-html {
-	background-color: #161a26;
+:root {
+	font-size: 0.75vw;
 }
 
 body {
-	font-size: 100%;
-	padding: auto 1% auto 1%;
+	background-color: #161a26;
 }
 
-.titleFont {
+.header {
 	font-family: 'Anton', sans-serif;
 	color: #ff4654;
-}
-
-h1.mapName {
-	text-align: center;
-	font-size: 7em;
-
-	margin: 1% auto 1% auto;
-}
-
-h2.mapSideName {
-	text-align: center;
-	font-size: 3em;
-
-	margin: 1% auto 1% auto;
-}
-
-h3.tacticName {
-	font-size: 2.5em;
-	margin: 10px auto 10px auto;
-}
-
-div.tacticPiece {
-	border: 1px solid #ff4654;	
-	margin-left: 0.5%;
-	margin-bottom: 0.2%;
-
-	padding: 0.1% 1% 1% 1%;
-}
-
-h4.pieceName {
-	font-size: 1.25em;
-	margin: 0.1% auto 0.1% auto;
-}
-
-.tactic {
-	margin-left: 1%;
-	margin-right: 1%;
-}
-
-.tacticPiece .comment  {
-	font-size: 1em;
-	font-family: 'Roboto', sans-serif;
-	color: #ece8e1;
-	margin: auto 0 1% 0;
-}
-
-/* All image containers */
-.tacticPiece .images,.imagesLineup {
 	text-align: center;
 }
 
-/* All standalone setup images*/
-.tacticPiece .images > img {
-	border: 1px solid #80232a;
-	margin-right: 0.5%;
+.mapName {
+	font-size: 15em;
+	margin-top: 1%;
+	margin-bottom: 0;
+	line-height: 80%;
 }
 
-/* All lineup setup images*/
-.tacticPiece .imagesLineup > img {
-	border: 1px solid #80232a;
-	margin-right: 0.5%;
-}
-
-.tacticPiece .images > img {
-	width: 40%;
-}
-
-.imagesLineup {
+.mapsideName {
+	font-size: 4em;
+	margin-top: 0;
 	margin-bottom: 1%;
 }
 
-.tacticPiece .imagesLineup .playerPos {
-	width: 20%;
+.tacticsContainer {
+	margin-left: 0.5%;
+	margin-right: 0.5%;
 }
 
-.tacticPiece .imagesLineup .lineupPos {
-	width: 20%;
+.tactic {
+	display: flex-inline;
+	justify-content: center;
+	/*text-align: center;*/
 }
 
-.tacticPiece .imagesLineup .animation {
-	width: 40%;
+.tacticName {
+	font-family: 'Anton', sans-serif;
+	color: #ff4654;
+	font-size: 2em;
+	margin-bottom: 0px;
+}
+
+.tacticDescription {
+	font-family: 'Roboto', sans-serif;
+	color: #ece8e1;
+	margin-top: 0px;
+}
+
+.tacticPiece {
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+.tacticPieceName {
+	font-family: 'Anton', sans-serif;
+	color: #ff4654;
+	font-size: 1.25em;
+	margin-bottom: 0px;
+}
+
+.tacticPieceContent {
+	border: 1px solid #ff4654;	
+	padding: 0.5%;
+}
+
+.tacticPieceDescription {
+	font-family: 'Roboto', sans-serif;
+	color: #ece8e1;
+	margin-top: 0px;
+	margin-left: 0.25em;
+}
+
+.tacticSubpiece {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0.5%;
+}
+
+.elementContent {
+	border: 1px solid #80232a;
+	/*margin-right: 0.5%;*/
+}
+
+.elementContent + .elementContent {
+	margin-left: 0.1%;
+}
+
+.tacticSubpiece + .tacticSubpiece {
+	margin-top: 0.5%;
 }
 
 hr.tacticSeparator {
-	border: 2px dashed #ff4654;
+	border: 0.5em dashed #ff4654;
 	margin-top: 1%;
 	width: 90%;
 }
