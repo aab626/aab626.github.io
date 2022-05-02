@@ -118,8 +118,8 @@
 				"description": "Standard wire and cage for A Main.",
 				"subpieces": [
 					[
-						{"type": "reuse", "map": "ascent", "id": "def_a02", "piece": "Camera", "name": "wire1.jpg", "width": 40},
-						{"type": "reuse", "map": "ascent", "id": "def_a02", "piece": "Camera", "name": "wire1.jpg", "width": 40}
+						{"type": "reuse", "map": "ascent", "id": "def_a02", "piece": "A Main", "name": "wire1.jpg", "width": 40},
+						{"type": "reuse", "map": "ascent", "id": "def_a02", "piece": "A Main", "name": "cage1.jpg", "width": 40}
 					]
 				]
 			},
