@@ -1,0 +1,323 @@
+[
+	{
+		"name": "A SITE: DEFENSE_01",
+		"map": "ascent",
+		"section": "A Site",
+		"side": "defense",
+		"id":"def_a01",
+		"description": "Standard A Site defense for A Main.",
+		"pieces": [
+			{
+				"name": "Camera",
+				"description": "Camera high up so it can check deep into A main to give early info.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cam_ppos.jpg", "width": 20},
+						{"type": "img", "name": "cam_lineup.jpg", "width": 20},
+						{"type": "video", "name": "cam_video.mp4", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Trapwires",
+				"description": "First wire for attackers entering site, second for anyone positioning towards the lever.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "wire1.jpg", "width": 40},
+						{"type": "img", "name": "wire2.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Cages",
+				"description": "First cage is used to peek from left side of dice, second to protect while repositioning. Instead of the oneway lineup you can use a simple cage on the ground just outside of A main entrance.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cage1_ppos.jpg", "width": 20},
+						{"type": "img", "name": "cage1_lineup.jpg", "width": 20},
+						{"type": "video", "name": "cage1_video.mp4", "width": 40}
+					],
+					[
+						{"type": "img", "name": "cage1_alternative.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Playstyle",
+				"description": "Check cameras for attackers in A Main, then peek from left side of dice with A Main oneway, when exposed use second cage reposition and adapt.",
+				"subpieces": [
+					[
+						{"type": "video", "name": "play1.mp4", "width": 40},
+						{"type": "video", "name": "play2.mp4", "width": 40}
+					]
+				]
+			}
+			
+		]
+	},
+	{
+		"name": "A SITE: DEFENSE_02",
+		"map": "ascent",
+		"section": "A Site",
+		"side": "defense",
+		"id":"def_a02",
+		"description": "Split A Site defense, A Main and Tree areas.",
+		"pieces": [
+			{
+				"name": "Camera",
+				"description": "Lower camera to check into tree, but cannot see inside A Main.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cam.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "A Main",
+				"description": "Standard wire and cage to stop pushes.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "wire1.jpg", "width": 40},
+						{"type": "img", "name": "cage1.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Tree",
+				"description": "Wire and oneway to shoot from site.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cage2_ppos.jpg", "width": 20},
+						{"type": "img", "name": "cage2_lineup.jpg", "width": 20},
+						{"type": "video", "name": "cage2_video.mp4", "width": 40}
+					],
+					[
+						{"type": "img", "name": "wire2.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Playstyle",
+				"description": "Check camera to see if attackers are coming from Tree, activate oneway and shoot behind the cages, beware of A Main, if there attackers there you can use the other cage to protect yourself.",
+				"subpieces": [
+					[
+						{"type": "video", "name": "play1.mp4", "width": 40}
+					]
+				]
+			}
+			
+		]
+	},
+	{
+		"name": "A SITE: TREE",
+		"map": "ascent",
+		"section": "A Site",
+		"side": "defense",
+		"id":"def_a03",
+		"description": "One way from garden to Tree, plus standard A Main defense for teammates.",
+		"pieces": [
+			{
+				"name": "A Site",
+				"description": "Standard wire and cage for A Main.",
+				"subpieces": [
+					[
+						{"type": "reuse", "map": "ascent", "id": "def_a02", "piece": "A Main", "name": "wire1.jpg", "width": 40},
+						{"type": "reuse", "map": "ascent", "id": "def_a02", "piece": "A Main", "name": "cage1.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Garden",
+				"description": "High camera can check the feet of attackers coming from catwalk cubby into tree, very hard to spot.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cam.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Tree",
+				"description": "Wire and oneway to shoot from garden.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cage1_ppos.jpg", "width": 20},
+						{"type": "img", "name": "cage1_lineup.jpg", "width": 20},
+						{"type": "video", "name": "cage1_video.mp4", "width": 40}
+					],
+					[
+						{"type": "img", "name": "wire1.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Playstyle",
+				"description": "Check camera, when spotting legs of enemies activate oneway and shoot, standing in the platform upstairs enemies from catwalk cubby cannot see you.",
+				"subpieces": [
+					[
+						{"type": "video", "name": "play.mp4", "width": 40}
+					]
+				]
+			}
+			
+		]
+	},
+	{
+		"name": "B SITE: DEFENSE_01",
+		"map": "ascent",
+		"section": "B Site",
+		"side": "defense",
+		"id":"def_b01",
+		"description": "Standard B Site defense when playing anchor, protects both B Main and Market entrances.",
+		"pieces": [
+			{
+				"name": "Camera",
+				"description": "High camera difficult to clear, can frequently spot enemies trying to contest B Site from B Main.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cam_ppos.jpg", "width": 20},
+						{"type": "img", "name": "cam_lineup.jpg", "width": 20},
+						{"type": "video", "name": "cam_video.mp4", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Cages",
+				"description": "Two oneways, one for B main and another for market, be cautious of the left side of the B Main entrance, as enemies can see into site. Both lineups use the same position, but the first one must be crouched!",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cage_ppos.jpg", "width": 20},
+						{"type": "img", "name": "cage1_lineup.jpg", "width": 20},
+						{"type": "video", "name": "cage1_video.mp4", "width": 40}
+					],
+					[
+						{"type": "img", "name": "cage_ppos.jpg", "width": 20},
+						{"type": "img", "name": "cage2_lineup.jpg", "width": 20},
+						{"type": "video", "name": "cage2_video.mp4", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Wires",
+				"description": "Supporting wires for the oneways.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "wire1.jpg", "width": 40},
+						{"type": "img", "name": "wire2.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Playstyle",
+				"description": "Check camera, for Market/B Main areas the play is kind of the same, when enemies peek the entrance just activate the oneway and shoot, if they push you the wire will catch them, but beware of enemies going into lane.",
+				"subpieces": [
+					[
+						{"type": "video", "name": "play1.mp4", "width": 40},
+						{"type": "video", "name": "play2.mp4", "width": 40}
+					]
+				]
+			}
+			
+		]
+	},
+	{
+		"name": "B SITE: DEFENSE_02",
+		"map": "ascent",
+		"section": "B Site",
+		"side": "defense",
+		"id":"def_b02",
+		"description": "Deep site defense from backsite, mainly focusing on enemies pushing lane and wallbangs to boathouse. You can use another wire and/or cage in stairs to protect yourself when enemies try to counter you.",
+		"pieces": [
+			{
+				"name": "Camera",
+				"description": "Reusing standard B Site camera.",
+				"subpieces": [
+					[
+						{"type": "reuse", "map": "ascent", "id": "def_b01", "piece": "Camera", "name": "cam_ppos.jpg", "width": 20},
+						{"type": "reuse", "map": "ascent", "id": "def_b01", "piece": "Camera", "name": "cam_lineup.jpg", "width": 20},
+						{"type": "reuse", "map": "ascent", "id": "def_b01", "piece": "Camera", "name": "cam_video.mp4", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Lane",
+				"description": "A wire plus a cage, try to line the cage with the brick to the left of the animal's tail in the grafitti, so the edges of the tripwire remain hidden for the attacker who triggers it.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "wire1.jpg", "width": 40},
+						{"type": "img", "name": "cage1.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Alternative 1: B Main",
+				"description": "This cage can be used to trick your enemies to push lane and into your traps.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cage1.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Alternative 2: Stairs",
+				"description": "An alternative cage is this lineup, when enemies push stairs to counter you, this can be accompanied with a tripwire or not, your call.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cage2_alternative2_ppos.jpg", "width": 20},
+						{"type": "img", "name": "cage2_alternative2_lineup.jpg", "width": 20},
+						{"type": "video", "name": "cage2_alternative2_video.mp4", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Playstyle",
+				"description": "Wait into backsite until enemies walk into lane and shoot using your cage, if they wander into boathouse/lever wallbang them. If you used the alternative cage for stairs, its the same but through the other door.",
+				"subpieces": [
+					[
+						{"type": "video", "name": "play1.mp4", "width": 40},
+						{"type": "video", "name": "play2_alternative2.mp4", "width": 40}
+					]
+				]
+			}
+			
+		]
+	},
+	{
+		"name": "MID: DEFENSE_01",
+		"map": "ascent",
+		"section": "Mid",
+		"side": "defense",
+		"id":"def_mid01",
+		"description": "Simple setup for mid, using only half of utility.",
+		"pieces": [
+			{
+				"name": "Camera",
+				"description": "Camera hidden in pizza sign.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cam.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Wire and Camera",
+				"description": "Tricky low wire, keep in mind that raze players can clear this with their boombot, so you can place it a bit higher between the walls, but you will need to activate it manually! Ideally the cage should be placed where the camera can activate it.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "wire1.jpg", "width": 40},
+						{"type": "img", "name": "cage1.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Playstyle",
+				"description": "Wait in Market or CT, when spotting enemies with the camera activate camera and shoot.",
+				"subpieces": [
+					[
+						{"type": "video", "name": "play1.mp4", "width": 40},
+						{"type": "video", "name": "play2.mp4", "width": 40}
+					]
+				]
+			}			
+		]
+	}
+]

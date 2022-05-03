@@ -30,6 +30,67 @@ body {
 	margin-right: 0.5%;
 }
 
+.mapSectionNav {
+	display: flex;
+	justify-content: center;
+	border: 0.25em dashed #80232a;
+	border-left: 0px;
+	border-right: 0px;
+	padding: 1.5em 0em 1.5em 0em;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.mapSection {
+	text-align: center;
+	/*border: 1px solid green;*/
+}
+
+.mapSectionSeparator {
+	border: 1px dashed #80232a;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.mapSection + .mapSection {
+	margin-left: 1%;
+}
+
+.mapSectionName {
+	font-family: 'Anton', sans-serif;
+	color: #ff4654;
+	font-size: 2em;
+	text-align: center;
+
+	margin-bottom: 0.5em;
+
+}
+
+.mapSectionContent {
+
+}
+
+.mapSectionTactic {
+	text-decoration: none;
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+	color: #ece8e1;
+	border: 1px solid #ece8e1;
+
+	padding: 0.25em 1em 0.25em 1em;
+}
+
+.mapSectionTactic:hover {
+	font-weight: bolder;
+	background-color: #ff4654;
+
+}
+
+.mapSectionTactic + .mapSectionTactic {
+	margin-top: 0.5em;
+}
+
 .tactic {
 	display: flex-inline;
 	justify-content: center;
@@ -41,6 +102,13 @@ body {
 	color: #ff4654;
 	font-size: 2em;
 	margin-bottom: 0px;
+}
+
+.tacticNameGoUpButton {
+	text-decoration: none;
+	color: #80232a;
+	font-size: 0.75em;
+	vertical-align: super;
 }
 
 .tacticDescription {
