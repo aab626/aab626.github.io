@@ -1,0 +1,62 @@
+[
+	{
+		"name": "A SITE: DEFENSE_01",
+		"map": "bind",
+		"section": "A Short",
+		"side": "defense",
+		"id":"def_a01",
+		"description": "Standard A Site defense for A Short.",
+		"pieces": [
+			{
+				"name": "Camera",
+				"description": "High camera allows you to see into A Short, so you can peek when enemies are in the open.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cam_ppos.jpg", "width": 20},
+						{"type": "img", "name": "cam_lineup.jpg", "width": 20},
+						{"type": "video", "name": "cam_video.mp4", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Trapwires",
+				"description": "Two alternatives, first one can be cleared by enemies who jump to the wooden box, but provides more control than the second.\nThe other wire's main purpose is stop the rush to Lamps. ",
+				"subpieces": [
+					[
+						{"type": "img", "name": "wire1_v1.jpg", "width": 40},
+						{"type": "img", "name": "wire1_v2.jpg", "width": 40}
+					],
+					[
+						{"type": "img", "name": "wire2.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Cages",
+				"description": "Two simple cages under the wires. The first cage is used with the second variation of the first wire to lead enemies into the wire or just push the cage itself.",
+				"subpieces": [
+					[
+						{"type": "img", "name": "cage1.jpg", "width": 40},
+						{"type": "img", "name": "cage2.jpg", "width": 40}
+					]
+				]
+			},
+			{
+				"name": "Playstyle",
+				"description": "Check cameras for attackers in A Short, use cages and shoot.\nIf enemies are going to Hookah, you can pop the cage just outside the teleporter and open the teleporter doors with the camera's dart, then get in and shoot.",
+				"subpieces": [
+					[
+						{"type": "video", "name": "play1_v1.mp4", "width": 40},
+						{"type": "video", "name": "play2.mp4", "width": 40}
+					],
+					[
+						{"type": "video", "name": "play1_v2.mp4", "width": 40},
+						{"type": "video", "name": "play1_v2.mp4", "width": 40}
+					]
+
+				]
+			}
+			
+		]
+	}
+]

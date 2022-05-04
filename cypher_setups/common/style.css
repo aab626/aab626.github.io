@@ -1,5 +1,9 @@
 :root {
-	font-size: 0.75vw;
+	/*font-size: 0.75vw;*/
+}
+
+html {
+	width: 100%;
 }
 
 body {
@@ -23,6 +27,69 @@ body {
 	font-size: 4em;
 	margin-top: 0;
 	margin-bottom: 1%;
+}
+
+.mapNav {
+	display: flex;
+	justify-content: space-around;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.mapNavDropdown {
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+}
+
+.mapNavDropdownMapname {
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+	font-family: 'Anton', sans-serif;
+	color: #ff4654;
+	font-size: 1.5em;
+
+	padding: 0.1em 2.5em 0.1em 2.5em;
+
+	border: 1px solid #80232a;	
+}
+
+.mapNavDropdownContent {
+	display: none;
+}
+
+.mapNavDropdownContent a {
+	text-decoration: none;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+	color: #ece8e1;
+	border: 1px solid #ece8e1;
+	padding: 0.25em 1em 0.25em 1em;
+
+	text-align: center;
+}
+
+.mapNavDropdownContent a:hover {
+	background-color: #ff4654;
+	font-weight: bolder;
+}
+
+.mapNavDropdown:hover .mapNavDropdownContent {
+	display: flex;
+	flex-direction: column;
+}
+
+.mapNavTitleSeparator {
+	border-top: 0.25em dashed #80232a;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2em;
 }
 
 .tacticsContainer {
@@ -63,12 +130,9 @@ body {
 	text-align: center;
 
 	margin-bottom: 0.5em;
-
 }
 
-.mapSectionContent {
-
-}
+.mapSectionContent {}
 
 .mapSectionTactic {
 	text-decoration: none;
