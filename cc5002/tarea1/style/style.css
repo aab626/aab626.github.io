@@ -158,6 +158,9 @@ body {
 
 .pet-info {
     font-size: 0.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
 
 .pet-quantity, .pet-type, .pet-age {
