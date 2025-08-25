@@ -204,6 +204,11 @@ body {
     object-fit: cover;
     border-radius: 4px;
     border: 1px solid #ddd;
+    transition: transform 0.2s ease;
+}
+
+.pet-photo:hover {
+    transform: scale(1.1);
 }
 
 .photo-count {
