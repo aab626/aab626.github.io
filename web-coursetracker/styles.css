@@ -1,0 +1,111 @@
+body {
+    background-color: #181818;
+    color: #F5F5F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 60%;
+    /* height: 100%; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.course-container {
+    border: 1px solid #F5F5F5;
+    max-width: 100%;
+
+    padding: 0.5em;
+    margin: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.course-info {
+    margin: 5px;
+}
+
+.course-progress {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.lectures-progress {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.work-progress {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.course-block {
+    min-width: 10px;
+    height: 0.75em;
+    border: 1px solid rgb(78, 42, 42);
+    background-color: rgb(37, 37, 37);
+    /* border-style: dashed; */
+
+    flex-grow: 1;
+}
+
+.course-block-done {
+    border: 1px solid rgb(182, 0, 0);
+    background-color: rgb(110, 0, 0);
+    
+}
+
+.work-block {
+    min-width: 10px;
+    height: 0.75em;
+    border: 1px solid rgb(102, 61, 129);
+    background-color: rgb(37, 37, 37);
+
+    flex-grow: 1;
+}
+
+.work-block-done {
+    border: 1px solid rgb(109, 0, 182);
+    background-color: rgb(57, 0, 110);
+}
+
+.work-block:hover, .course-block:hover{
+    opacity: 0.66;
+    border-style: double;
+}
+
+.course-block-start {
+    border-radius: 0.5em 0 0 0;
+}
+
+.course-block-end {
+    border-radius: 0 0.5em 0 0;
+}
+
+
+.work-block-start {
+    border-radius: 0 0 0 0.5em;
+}
+
+.work-block-end {
+    border-radius: 0 0 0.5em 0;
+}
+
